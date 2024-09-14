@@ -1,6 +1,6 @@
 import express from "express";
 import { auth } from "../Middleware/Auth.js"; 
-import { getProfile,createProfile,updateProfile, newProfile, deletedProfile } from "../Helper.js";
+import { getProfile,updateProfile, newProfile, deletedProfile } from "../Helper.js";
 const router = express.Router();
 
 
